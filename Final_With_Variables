@@ -1,0 +1,23 @@
+public class With_Variables {
+
+	// final keyword with variables
+	// once we declared the value that can't be reassign
+	// stop change value
+	// it will be constant
+
+	final int age = 24;
+
+	void myage() {
+		System.out.println(age);
+
+	}
+  void notmyage() {
+		System.out.println(age);
+	}
+
+	public static void main(String[] args) {
+		With_Variables obj = new With_Variables();
+		obj.myage();
+		obj.notmyage();
+	}
+}
